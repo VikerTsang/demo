@@ -1,0 +1,25 @@
+
+
+
+two:
+  name: TwoName
+  desc: TwoDesc
+four:
+  name: FourName
+  desc: FourDesc
+
+test:
+  limitSizeMap:
+    baidu: 1024
+    sogou: 90
+    hauwei: 4096
+    qq: 1024
+
+test-list:
+  limitSizeList[0]: "baidu: 1024"
+  limitSizeList[1]: "sogou: 90"
+  limitSizeList[2]: "hauwei: 4096"
+  limitSizeList[3]: "qq: 1024"
+server:
+  servlet:
+    context-path: /demo
